@@ -1,0 +1,10 @@
+# 依赖
+node_modules/
+
+# 临时验证目录
+.verify/
+
+# 日志与本地文件
+*.log
+.DS_Store
+Thumbs.db

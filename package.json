@@ -1,0 +1,15 @@
+{
+  "name": "mini-vue",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "手写 Vue 3 响应式系统（学习项目，第 1 周产出物）",
+  "scripts": {
+    "test": "node --test-reporter=spec test/all.mjs",
+    "test:a": "node --test-reporter=spec test/01-basic.test.mjs",
+    "test:b": "node --test-reporter=spec test/02-nested.test.mjs",
+    "test:c": "node --test-reporter=spec test/03-computed-ref.test.mjs",
+    "test:d": "node --test-reporter=spec test/04-advanced.test.mjs",
+    "exp": "node experiments/lesson1.mjs"
+  }
+}
